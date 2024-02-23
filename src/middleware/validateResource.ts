@@ -9,6 +9,7 @@ const validate =
         query: req.query,
         params: req.params,
       });
+      next()
     } catch (e: any) {
       res.status(400).send(e.errors);
     }

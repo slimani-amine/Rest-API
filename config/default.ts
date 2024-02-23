@@ -1,5 +1,5 @@
 export default {
-    port:3004,
-    dbUri:"mongodb://localhost:27017/restapi",
+    port:27017,
+    dbUri:"mongodb+srv://mohamedamineslimani:nr1w6ooVXhNMiFmx@cluster0.nrksgza.mongodb.net/",
     saltWorkFactor:10
 }
